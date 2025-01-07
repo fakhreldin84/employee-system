@@ -1,12 +1,11 @@
 <?php
 $title = "About";
-echo $__FILE__;
 /* --- Head --- */
-require_once('inc/head.php');
+require_once('../inc/head.php');
 /* --- Nav --- */
-require_once('inc/nav.php');
+require_once('../inc/nav.php');
 /* --- Header --- */
-require_once('inc/header.php');
+require_once('../inc/header.php');
 ?>
 <!-- Section-->
 <section class="py-5">

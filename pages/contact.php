@@ -1,11 +1,11 @@
 <?php
 $title = "Contact";
 /* --- Head --- */
-require_once('inc/head.php');
+require_once('../inc/head.php');
 /* --- Nav --- */
-require_once('inc/nav.php');
+require_once('../inc/nav.php');
 /* --- Header --- */
-require_once('inc/header.php');
+require_once('../inc/header.php');
 ?>
 <!-- Section-->
 <section class="py-5">
@@ -35,4 +35,4 @@ require_once('inc/header.php');
         </div>
     </div>
 </section>
-<?php require_once('inc/footer.php'); ?>
+<?php require_once('../inc/footer.php'); ?>
