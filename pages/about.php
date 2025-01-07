@@ -1,5 +1,6 @@
 <?php
 $title = "About";
+echo $__FILE__;
 /* --- Head --- */
 require_once('inc/head.php');
 /* --- Nav --- */
