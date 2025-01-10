@@ -1,5 +1,5 @@
 <?php
-$title = "Home Page";
+$title = "Logout";
 require_once('header.php'); ?>
 <?php require_once('nav.php'); ?>
 <!-- Header-->

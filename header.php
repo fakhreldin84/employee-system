@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php $title = ""; ?>
 
 <head>
     <meta charset="utf-8" />
