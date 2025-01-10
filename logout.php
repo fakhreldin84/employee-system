@@ -14,3 +14,4 @@ require_once('header.php'); ?>
 <p>
     Welcome In logout page
 </p>
+<?php require_once('footer.php'); ?>

@@ -11,6 +11,7 @@ require_once('header.php'); ?>
         </div>
     </div>
 </header>
-<p> 
-Welcome In login page
+<p>
+    Welcome In login page
 </p>
+<?php require_once('footer.php'); ?>

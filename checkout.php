@@ -13,7 +13,6 @@ require_once('header.php'); ?>
         </div>
     </div>
 </header>
-<?php require_once('nav.php'); ?>
 <!-- Section-->
 <section class="py-5">
     <div class="container px-4 px-lg-5 mt-5">
