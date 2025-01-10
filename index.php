@@ -38,19 +38,19 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                            href="../pages/about.php" name="link-about">About</a>
+                            href="pages/about.php" name="link-about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                            href="../pages/contact.php" name="link-contact">Contact</a>
+                            href="pages/contact.php" name="link-contact">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                            href="../auth/login.php" name="link-login">Login</a>
+                            href="auth/login.php" name="link-login">Login</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                            href="../auth/register.php" name="link-register">Register</a>
+                            href="auth/register.php" name="link-register">Register</a>
                     </li>
                 </ul>
                 <form class="d-flex" action="cart.php" method="post">
