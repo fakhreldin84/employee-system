@@ -11,7 +11,27 @@ require_once('header.php'); ?>
         </div>
     </div>
 </header>
-<p>
-    Welcome In register page
-</p>
+<form action="login.php" class="form border my-2 p-3" method="post">
+    <div class="mb-3">
+        <div class="mb-3">
+            <label for="">Type User Name</label>
+            <input type="text" name="name" id="name" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="">Type Email Address</label>
+            <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="">Type New Password</label>
+            <input type="password" name="password" id="password" class="form-control" rows="7"></input>
+        </div>
+        <div class="mb-3">
+            <label for="">Confirm Password</label>
+            <input type="password" name="con-password" id="con-password" class="form-control" rows="7"></input>
+        </div>
+        <div class="mb-3">
+            <button type="submit" value="send" id="" class="btn btn-success">Create Account</button>
+        </div>
+    </div>
+</form>
 <?php require_once('footer.php'); ?>

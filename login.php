@@ -11,7 +11,18 @@ require_once('header.php'); ?>
         </div>
     </div>
 </header>
-<p>
-    Welcome In login page
-</p>
+<form action="login.php" class="form border my-2 p-3" method="post">
+    <div class="mb-3">
+        <div class="mb-3">
+            <label for="">Type Email Address</label>
+            <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="">Type Password</label>
+            <input type="password" name="password" id="password" class="form-control" rows="7"></input>
+            <div class="mb-3">
+                <button type="submit" value="login" id="" class="btn btn-success">Login</button>
+            </div>
+        </div>
+</form>
 <?php require_once('footer.php'); ?>
